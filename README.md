@@ -2,6 +2,12 @@
 
 Sistema utilizando o framework Laravel para o controle de animais para ONG's.
 
+#Requisitos Minímos
+
+1. PHP
+2. MYSQL
+ 
+
 # Instalação do Sistema
 
 1. Baixe o diretório do sistema
@@ -26,7 +32,7 @@ php artisan migrate
 http://localhost/projeto/public/
 ```
 
-**obs:** O index se encontra no /public 
+**obs:** O index se encontra no /public
 
 # Dados de Acesso
 **E-mail:** admin@admin.com
