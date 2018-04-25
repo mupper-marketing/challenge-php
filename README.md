@@ -1,6 +1,6 @@
 # Sistema SOS PET
 
-Sistema utilizando o framework Laravel para o gerenciamento de ONG de animais.
+Sistema utilizando o framework Laravel para o controle de animais para ONG's.
 
 # Instalação do Sistema
 
