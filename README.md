@@ -1,4 +1,4 @@
-# Coding Challenge
+# Sistema SOS PET
 
 1. Utilizando o framework Laravel (MVC), crie um sistema para uma ong de animais;
 2. O sistema terá que ter acesso somente por usuários autenticados;
@@ -24,7 +24,7 @@ O repositório deve ser forkado e feito PR com a implementação realizada.
 1. Entender os conceitos de OO, framework e linguagem
 2. Code design
 3. Habilidade de escrever boa documentação
-4. Error handling 
+4. Error handling
 5. BONUS: build e/ou deploy scripts
 6. BONUS: Docker script
 7. BONUS: Teste unitário e automação de testes
