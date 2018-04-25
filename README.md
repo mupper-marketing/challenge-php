@@ -2,11 +2,11 @@
 
 Sistema utilizando o framework Laravel para o controle de animais para ONG's.
 
-#Requisitos Minímos
+# Requisitos Minímos
 
 1. PHP
 2. MYSQL
- 
+
 
 # Instalação do Sistema
 
