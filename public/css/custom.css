@@ -54,3 +54,7 @@ th {
 tr:first-child a#deletarUsuario {
     display: none;
 }
+
+nav ul a {
+    font-size: 13pt;
+}
