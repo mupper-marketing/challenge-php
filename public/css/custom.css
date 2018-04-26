@@ -1,0 +1,60 @@
+
+h3{
+  color: gray;
+  text-transform: uppercase;
+}
+
+th {
+    color: #6f6b6b;
+}
+
+/*Personalização Footer*/
+@media only screen and (min-width: 650px) {
+
+  footer {
+      margin-top: 20%;
+      border-top: 1px solid lightgray;
+      font-weight: 500;
+  }
+  .footer-copyright {
+      padding-top: 1%;
+  }
+
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  footer {
+      margin-top: 80%;
+      border-top: 1px solid lightgray;
+      font-weight: 500;
+  }
+
+  .footer-copyright {
+      padding-top: 1%;
+      padding-left: 15%;
+  }
+
+   .msg {
+      display: none;
+      }
+
+}
+/*Personalização Menu*/
+
+@media only screen and (max-width: 600px) {
+  nav .nav-wrapper {
+      position: relative;
+      height: 111%;
+  }
+}
+
+/*Não permitir que o usuário administrador seja excluido*/
+tr:first-child a#deletarUsuario {
+    display: none;
+}
+
+nav ul a {
+    font-size: 13pt;
+}

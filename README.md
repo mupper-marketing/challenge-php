@@ -1,33 +1,50 @@
-# Coding Challenge
+# Sistema SOS PET
 
-1. Utilizando o framework Laravel (MVC), crie um sistema para uma ong de animais;
-2. O sistema terá que ter acesso somente por usuários autenticados;
-3. Esse sistema deve ter os seguintes CRUDS:
-  * Animais - listagem, cadastro, edição e remoção
-  * Doações - listagem, cadastro, edição e remoção
-  * Veterinários - listagem, cadastro, edição e remoção
-  * Usuários administrativos - listagem, cadastro, edição e remoção
-  * Histórico de atendimento do animal - listagem, cadastro
-4. Regras:
-  * Animais (nome, imagem, idade, espécie, raça, observação) - observação pode ser nula, imagem somente png ou jpg
-  * Doações (dados do doador, tipo, quantidade) - tipo pode ser somente ração ou medicamentos, doação pode ser especifica para um animal ou não
-  * Veterinários (nome, telefone, crv, endereço)
-  * Histórico de atendimento (data, animal, veterinário, observação) - todos os campos são obrigatórios. Deve ser apresentado apenas na tela de edição do animal.
-5. Escrever o COMO SUBIR A APLICAÇÃO abaixo;
+Sistema utilizando o framework Laravel para o controle de animais para ONG's.
+
+# Requisitos Minímos
+
+1. PHP
+2. MYSQL
+
+
+# Instalação do Sistema
+
+1. Baixe o diretório do sistema
+2. Crie um banco de dados no local que será instalado o sistema
+3. Faça a importação do banco com o arquivo **db.zip**
+4. Renomeie o arquivo **.env.example** por **.env**
+5. Edite o arquivo **.env** com os dados de conexão do banco
+6. Abra o **Prompt de Comandos** e vá para a raiz do diretório do sistema, exemplo:
 
 ```
-O repositório deve ser forkado e feito PR com a implementação realizada.
+cd C:\Users\Your_User\projeto
 ```
 
-# Critério de avalição
+7. Depois rode o comando abaixo para atualizar o composer
 
-1. Entender os conceitos de OO, framework e linguagem
-2. Code design
-3. Habilidade de escrever boa documentação
-4. Error handling 
-5. BONUS: build e/ou deploy scripts
-6. BONUS: Docker script
-7. BONUS: Teste unitário e automação de testes
+```
+composer update
+```
 
-# Como subir a aplicação
-Explicar detalhamente como deve ser feito para rodar a aplicação
+8. Gere uma nova chave para o projeto com o código abaixo
+
+```
+php artisan key:generate
+```
+
+9. Em seu navegador acesse o sistema, exemplo:
+
+```
+http://localhost/projeto/public/
+```
+
+**obs:** O index se encontra no /public
+
+# Dados de Acesso
+**E-mail:** admin@admin.com
+
+**Senha:** 123456
+
+# Documentação
+Acesse a [Documentação](https://drive.google.com/file/d/1BSWutYrQGhA_wHGi3hXo5kFW5GHnIpum/view).
