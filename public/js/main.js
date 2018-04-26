@@ -6,7 +6,7 @@
   M.updateTextFields();
   $('select').formSelect();
   $('.datepicker').datepicker({
-          format: 'dd/mm/yyyy',          
+          format: 'dd/mm/yyyy',
   });
 
   //Máscaras Inputs
@@ -15,6 +15,7 @@
   $('#crv').inputmask("99999999999");
   $('#cep').inputmask("99999-999");
   });
+
 
   //API Correios
   $(document).ready(function() {
