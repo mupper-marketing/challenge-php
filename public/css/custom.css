@@ -49,3 +49,8 @@ th {
       height: 111%;
   }
 }
+
+/*Não permitir que o usuário administrador seja excluido*/
+tr:first-child a#deletarUsuario {
+    display: none;
+}

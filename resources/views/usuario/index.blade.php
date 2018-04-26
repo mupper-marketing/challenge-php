@@ -22,7 +22,7 @@
               <td>{{$registro->email}}</td>
               <td>
                 <a class="btn #00796b teal darken-2" href="{{route('usuario.editar', $registro->id)}}" title="Editar"><i class="material-icons">create</i></a>
-                <a class="btn #00695c teal darken-3" href="{{route('usuario.deletar', $registro->id)}}" onclick="excluir({{ $registro->id }})" title="Apagar"><i class="material-icons">delete</i></a>
+                <a class="btn #00695c teal darken-3" href="{{route('usuario.deletar', $registro->id)}}" id="deletarUsuario" title="Apagar"><i class="material-icons">delete</i></a>
               </td>
             </tr>
             @endforeach

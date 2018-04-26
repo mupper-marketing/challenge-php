@@ -45,3 +45,6 @@ http://localhost/projeto/public/
 **E-mail:** admin@admin.com
 
 **Senha:** 123456
+
+# Documentação
+Acesse a [Documentação](https://drive.google.com/file/d/1BSWutYrQGhA_wHGi3hXo5kFW5GHnIpum/view).
